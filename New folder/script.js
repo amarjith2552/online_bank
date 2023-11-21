@@ -113,5 +113,5 @@ function regg(){
 
  function logg(){
     localStorage.clear()
-    window.location='./index.html'
+    window.location='./New folder/index.html'
  }
