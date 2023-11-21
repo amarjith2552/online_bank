@@ -17,7 +17,7 @@ function regg(){
          else{
              localStorage.setItem(bank.acno,JSON.stringify(bank))
              alert('New account created')
-             window.location='./login.html'
+             window.location='./index2.html'
          }
      }
  }
@@ -34,7 +34,7 @@ function regg(){
              let bank=JSON.parse(localStorage.getItem(acno))
              if(psd==bank.psd){
                  alert('Login successfull')
-                 window.location="./dp.html";
+                 window.location="./index1.html";
              }
              else{
                  alert('incorrect password')
@@ -42,7 +42,7 @@ function regg(){
          }
          else{
              alert('account does not found . Register for new account')
-             window.location="./reg.html";
+             window.location="./index3.html";
          }
      }
  }
@@ -113,5 +113,5 @@ function regg(){
 
  function logg(){
     localStorage.clear()
-    window.location='./home.html'
+    window.location='./index.html'
  }
